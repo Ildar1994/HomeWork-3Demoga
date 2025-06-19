@@ -3,7 +3,6 @@ import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.selector.ByText;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 
 import java.io.File;
 

@@ -18,11 +18,10 @@ public class FormaTests {
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.timeout = 5000;
     }
 
     @Test
-    void RegistrationTest() {
+    void registrationTest() {
         open("/automation-practice-form");
 
         //заполняем фио и почту
